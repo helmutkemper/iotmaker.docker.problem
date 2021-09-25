@@ -5,7 +5,6 @@ func NewProblem(error, cause string) *BreakoutProblem {
 		Err: error,
 		Cau: cause,
 	}
-	problem.getTrace()
 
 	return problem
 }
